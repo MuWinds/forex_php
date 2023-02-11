@@ -15,7 +15,6 @@ function forex($currency){
         $rates = $decode_currency->rates;
         $result_convert = $rates->$currency;
         echo $result_convert;
-    }
 }
 $convert_result = forex($_GET['currency'])
 echo $convert_result
